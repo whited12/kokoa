@@ -32,20 +32,15 @@
       <input id="sixth" required placeholder="Date" type="date" />
       <div></div>
       <label for="seventh">How happy are you?</label>
-      <input id="seventh" type="range" list="markers" required />
-      <datalist id="markers">
-        <option value="0"></option>
-        <option value="10"></option>
-        <option value="20"></option>
-        <option value="30"></option>
-        <option value="40"></option>
-        <option value="50"></option>
-        <option value="60"></option>
-        <option value="70"></option>
-        <option value="80"></option>
-        <option value="90"></option>
-        <option value="100"></option>
-      </datalist>
+      <input
+        id="seventh"
+        type="range"
+        list="markers"
+        required
+        min="10"
+        max="100"
+        step="10"
+      />
       <div></div>
       <label for="eight">What is your fav. color?</label>
       <input id="eight" type="color" required />
