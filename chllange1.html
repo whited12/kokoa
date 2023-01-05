@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="udf-8" />
+  </head>
+
+  <body>
+    <h2>Create An Account</h2>
+    <form>
+      <label for="First">First name</label>
+      <input id="First" required placeholder="First name" />
+      <div></div>
+      <label for="second">Last name</label>
+      <input id="second" required placeholder="Last name" />
+      <div></div>
+      <label for="third">Email</label>
+      <input id="third" required placeholder="Email" type="email" />
+      <div></div>
+      <label for="fourth">Username</label>
+      <input id="fourth" required placeholder="Username" />
+      <div></div>
+      <label for="fiveth">Password</label>
+      <input
+        id="fiveth"
+        required
+        placeholder="Password"
+        minlength="10"
+        type="password"
+      />
+      <div></div>
+      <label for="sixth">Birth Date</label>
+      <input id="sixth" required placeholder="Date" type="date" />
+      <div></div>
+      <label for="seventh">How happy are you?</label>
+      <input id="seventh" type="range" list="markers" required />
+      <datalist id="markers">
+        <option value="0"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"></option>
+      </datalist>
+      <div></div>
+      <label for="eight">What is your fav. color?</label>
+      <input id="eight" type="color" required />
+      <div></div>
+      <input type="submit" value="Create Account" />
+    </form>
+  </body>
+</html>
