@@ -7,27 +7,19 @@
         height: 1000vh;
         margin: 50px;
       }
-      span {
-        color: tomato;
-        background-color: aquamarine;
-        padding: 5px;
-        border-radius: 10px;
+      input {
+        border: 1px solid wheat
       }
-      p span {
-        color: white;
+      input:required {
+        border-color: tomato;
       }
-      p + span {
-        text-decoration: underline;
+      input[placeholder~="name"] {
+      background-color: bisque;
       }
-    </style>
-  </head>
+      </style>
   <body>
-    <div>
-      <p>
-        watermelon is so many of water inside. so we want drink water, you
-        should be eat watermelon <span>inside</span>
-      </p>
-      <span>hello</span>
-    </div>
+    <input type="text" placeholder="First name" />
+    <input type="text" placeholder="Last name" />
+    <input type="password" required placeholder="Password" />
   </body>
 </html>
