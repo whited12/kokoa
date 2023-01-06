@@ -8,24 +8,26 @@
         margin: 50px;
       }
       span {
-        background-color: tomato;
+        color: tomato;
+        background-color: aquamarine;
+        padding: 5px;
+        border-radius: 10px;
       }
-      span:nth-child(4n + 1) {
-        background-color: blue;
+      p span {
+        color: white;
+      }
+      p + span {
+        text-decoration: underline;
       }
     </style>
   </head>
   <body>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
+    <div>
+      <p>
+        watermelon is so many of water inside. so we want drink water, you
+        should be eat watermelon <span>inside</span>
+      </p>
+      <span>hello</span>
+    </div>
   </body>
 </html>
