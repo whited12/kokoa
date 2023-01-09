@@ -7,19 +7,28 @@
         height: 1000vh;
         margin: 50px;
       }
+      span {
+        background-color: green;
+        padding: 5px;
+        border-radius: 10px;
+      }
       input {
-        border: 1px solid wheat
+        border: 1px solid;
       }
       input:required {
-        border-color: tomato;
+        border-color: bisque;
       }
       input[placeholder~="name"] {
-      background-color: bisque;
+        background-color: pink;
       }
       </style>
   <body>
-    <input type="text" placeholder="First name" />
-    <input type="text" placeholder="Last name" />
-    <input type="password" required placeholder="Password" />
+    <div>
+      <form>
+        <input type="text" placeholder="First name" />
+        <input type="text" placeholder="Last name" />
+        <input type="password" required placeholder="Password" />
+      </form>
+    </div>
   </body>
 </html>
