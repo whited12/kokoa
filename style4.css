@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  background-color: teal;
+}
+@keyframes watermelon {
+  from {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: rotateY(0d);
+  }
+}
+div {
+  width: 150px;
+  height: 150px;
+  background-color: teal;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+div:first-child {
+  animation: watermelon 1s ease-in-out infinite;
+}
+div:nth-child(1) > div {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+div:nth-child(2) > div {
+  width: 15px;
+  height: 90px;
+  background-color: white;
+}
