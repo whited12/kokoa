@@ -8,10 +8,27 @@ body {
 }
 @keyframes watermelon {
   from {
-    transform: rotateY(180deg);
+    transform: rotate(-180deg);
   }
   to {
-    transform: rotateY(0d);
+    transform: rotate(0);
+  }
+}
+@keyframes dumbbell {
+  0% {
+    transform: scaleY(1);
+  }
+  25% {
+    transform: scaleY(2);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+  75% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
   }
 }
 div {
@@ -23,9 +40,6 @@ div {
   flex-direction: row;
   align-items: center;
 }
-div:first-child {
-  animation: watermelon 1s ease-in-out infinite;
-}
 div:nth-child(1) > div {
   width: 15px;
   height: 15px;
@@ -34,6 +48,28 @@ div:nth-child(1) > div {
 }
 div:nth-child(2) > div {
   width: 15px;
-  height: 90px;
+  height: 80px;
   background-color: white;
+}
+#apple {
+  animation: watermelon 1s ease-in-out infinite;
+}
+#first {
+  animation: dumbbell 1.5s ease-in-out infinite;
+}
+#second {
+  animation: dumbbell 1.5s ease-in-out infinite;
+  animation-delay: 0.1s;
+}
+#third {
+  animation: dumbbell 1.5s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+#forth {
+  animation: dumbbell 1.5s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+#fifth {
+  animation: dumbbell 1.5s ease-in-out infinite;
+  animation-delay: 0.4s;
 }
