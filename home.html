@@ -3,24 +3,22 @@
   <head>
     <meta charset="udf-8" />
     <style>
-      a {
-        color: wheat;
-        background-color: tomato;
-        text-decoration: none;
-        padding: 3px 5px;
-        border-radius: 5px;
-        font-size: 55px;
-        transition: color 1s cubic-bezier(0.42, 0, 0.58, 1),
-          border-radius 5s ease-in-out, background-color 10s ease-in-out;
+      @keyframes superSexyCoinFlip {
+        from {
+          transform: rotateY(0);
+        }
+        to {
+          transform: rotateY(180deg) translateX(100px);
+        }
       }
-      a:hover {
-        border-radius: 30px;
-        color: red;
-        background-color: wheat;
+      img {
+        border: 5px solid wheat;
+        border-radius: 50%;
+        animation: superSexyCoinFlip 5s ease-in-out infinite;
       }
     </style>
   </head>
   <body>
-    <a href="@">go to the fucking gym</a>
+    <img src="images.png" />
   </body>
 </html>
