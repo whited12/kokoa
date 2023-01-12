@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  margin-bottom: 30px;
+}
+/* 박스 2개씩 1개의 column을 총2개 만들거기 때문에 section 을 두 군데로 나눠서 flex 할거임 */
+
+div > div {
+  height: 80px;
+  background-color: rgb(222, 230, 236);
+  position: relative;
+  top: 10px;
+  border: none;
+}
+/* 위에 흰색 바는 div 박스의 relative를 시켜서 위에 둥둥뜨게 함 */
+
+div {
+  width: 180px;
+  height: 360px;
+  border: 3px solid white;
+  display: flex;
+}
+/* div 박스의 크기와 Flex */
+
+section:first-child > div:first-child {
+  background-color: tomato;
+}
+
+/* 첫번째 section 의 첫번째 div 자식 (빨간색) */
+
+section:first-child > div:nth-child(2) {
+  background-color: teal;
+}
+/* 첫번째 section 의 두번째 div 자식 (teal색) */
+section:nth-child(2) > div:first-child {
+  background-color: burlywood;
+}
+/* 두번째 section의 첫번째 div 자식 (burlywood색) */
+
+section:nth-child(2) > div:nth-child(2) {
+  background-color: thistle;
+}
+/* 두번째 section의 두번째 div 자식 (thistle) 색  */

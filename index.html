@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylecss/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,10 +30,20 @@
       </p>
     </header>
 
-    <form>
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
-      <input type="button" value="submit" />
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        class="apple"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input
+        name="password"
+        class="apple"
+        type="password"
+        placeholder="Password"
+      />
+      <input type="submit" value="Log in" />
       <a href="#">Find Kokoa Account or Password</a>
     </form>
 
