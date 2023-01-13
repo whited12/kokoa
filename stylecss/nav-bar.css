@@ -11,3 +11,29 @@
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
+.nav__link {
+  position: relative;
+}
+.nav__notification {
+  background-color: tomato;
+  position: relative;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  color: white;
+  font-weight: 600;
+}
+.nav__redcircle {
+  background-color: tomato;
+  width: 7.5px;
+  height: 7.5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
