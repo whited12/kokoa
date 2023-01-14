@@ -1,0 +1,141 @@
+#imagefirst {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: 120px;
+  box-shadow: 0 0 60px pink;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  position: relative;
+  padding-bottom: 40px;
+}
+.button input {
+  width: 110px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  box-shadow: 0 0 5px;
+}
+.button input:nth-child(1) {
+  background-color: #222222;
+  color: #d0d0d0;
+  border: 0 solid white;
+  margin-left: 50px;
+}
+.button input:last-child {
+  background-color: #ffffff;
+  color: #bdb9bf;
+  border: 0 solid white;
+  margin-left: 170px;
+  z-index: 1;
+}
+.button i {
+  margin-left: 178px;
+  margin-top: 20px;
+  z-index: 2;
+}
+
+.list {
+  width: 100%;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list-one {
+  width: 90%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.list-one:nth-child(2) {
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #eae9ef;
+}
+.list-one img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  position: absolute;
+  left: 20px;
+  z-index: 1;
+}
+.list-one__title {
+  width: 185px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 85px;
+}
+.list-one__title span:first-child {
+  opacity: 0.3;
+  font-weight: 600;
+  font-size: 13px;
+}
+.list-one__title span:last-child {
+  opacity: 0.8;
+  font-weight: 600;
+  font-size: 15px;
+}
+.list-one i {
+  opacity: 0.5;
+}
+.list-one i:first-child {
+  position: absolute;
+  left: 31px;
+  z-index: 2;
+  color: white;
+}
+.list-one i:last-child {
+  position: absolute;
+  left: 265px;
+}
+
+.playplug {
+  height: 60px;
+  width: 90%;
+  margin-left: 15px;
+  background-color: #222222;
+  border-radius: 30px;
+  box-shadow: 0 0 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.playplug i {
+  color: #fefefe;
+  position: absolute;
+}
+.apple {
+  margin-left: 170px;
+}
+.watermelon {
+  margin-left: 205px;
+}
+.peach {
+  margin-left: 240px;
+}
+.playplug-title {
+  width: 170px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  margin-left: 20px;
+}
+.playplug-title span:first-child {
+  color: #767676;
+  font-size: 14px;
+}
+.playplug-title span:last-child {
+  color: #fefefe;
+  font-size: 15px;
+}

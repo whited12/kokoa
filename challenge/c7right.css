@@ -1,0 +1,24 @@
+.kingofbox-sun:last-child div:first-child {
+  padding-bottom: 65px;
+}
+#imagesecond {
+  height: 215px;
+  width: 215px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px #fd9073;
+  margin-left: 52.5px;
+}
+.plugicon {
+  height: 55px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 5%;
+}
+.plugicon i:nth-child(1) {
+  opacity: 0.1;
+}
+.plugicon i:nth-child(5) {
+  opacity: 0.1;
+}
