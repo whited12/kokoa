@@ -1,0 +1,64 @@
+.more-middle {
+  margin-left: 5%;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  width: 90%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: var(--main-border);
+}
+.more-middle__box {
+  display: flex;
+}
+.more-middle__box:first-child {
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+.more-middle__box:last-child {
+  margin-left: 7%;
+}
+.more-middle__box:nth-child(2) .more-middle__icon:last-child {
+  margin-left: 14%;
+}
+.more-middle__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more-middle__icon span {
+  margin-top: 15px;
+}
+.third-part {
+  margin-left: 25px;
+  padding-bottom: 30px;
+}
+.third-part span {
+  font-weight: 600;
+}
+.kokoafriends {
+  display: flex;
+}
+.kokoafriends-fact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.kokoafriends-fact:first-child {
+  margin-left: 30px;
+}
+.kokoafriends-fact:nth-child(2) {
+  margin-left: 20px;
+}
+.kokoafriends-fact:last-child {
+  margin-left: 20px;
+}
+.kokoafriends-fact span {
+  margin-top: 20px;
+}
+.kokoafriends-fact img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}

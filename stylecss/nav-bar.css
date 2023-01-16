@@ -15,18 +15,9 @@
   position: relative;
 }
 .nav__notification {
-  background-color: tomato;
-  position: relative;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
-  left: 20px;
-  color: white;
-  font-weight: 600;
+  left: 15px;
+  bottom: 15px;
 }
 .nav__redcircle {
   background-color: tomato;
@@ -36,4 +27,8 @@
   position: absolute;
   left: 10px;
   top: 5px;
+}
+.findcircle {
+  left: 475px;
+  top: 55px;
 }
